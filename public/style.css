@@ -1,0 +1,63 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+
+}
+
+
+
+body{
+    color:green;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+font-size: 60px;
+}
+p {
+    color: white;
+    font-weight: normal;
+    font-family:'Great Vibes', cursive;
+}
+
+form{
+    background-color: #c19cc7;
+    width: 80%;
+    padding: 30px;
+    display:flex;
+    flex-direction: column;
+}
+form>*{ margin-top: 10px;
+    margin-bottom: 10px ;
+
+}
+form textarea{  font-size:20px;
+    padding:20px;
+    
+}
+
+input{
+    background-color:#63501f;
+    color: white;
+    font-size: 30px;
+    font-weight:bold ;
+    padding: 10px;
+}
+
+@media (min-width: 1000px){ 
+    form{
+        width:70%;
+    }
+
+}
+@media (min-width: 1280px){
+    form{
+        width:50%;
+    }
+}
+h2{
+    font-family:'Great Vibes', cursive;
+    color: #c19cc7;
+    font-weight:bold 
+}   
